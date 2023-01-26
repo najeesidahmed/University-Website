@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+        
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certifications and Online Programs for 2021</h1>
+        </section>
+
+        <!--- blog page content -->
+    
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certifications and Online Programs for 2021</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Condimentum lacinia quis vel eros donec ac. Odio tempor orci dapibus ultrices in. 
+                        A scelerisque purus semper eget duis at tellus at urna. Quam lacus suspendisse faucibus interdum posuere. 
+                        Id aliquet risus feugiat in ante.
+                    </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Condimentum lacinia quis vel eros donec ac. Odio tempor orci dapibus ultrices in. 
+                            A scelerisque purus semper eget duis at tellus at urna. Quam lacus suspendisse faucibus interdum posuere. 
+                            Id aliquet risus feugiat in ante.
+                        </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Condimentum lacinia quis vel eros donec ac. Odio tempor orci dapibus ultrices in. 
+                            A scelerisque purus semper eget duis at tellus at urna. Quam lacus suspendisse faucibus interdum posuere. 
+                            Id aliquet risus feugiat in ante.
+                        </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Condimentum lacinia quis vel eros donec ac. Odio tempor orci dapibus ultrices in. 
+                            A scelerisque purus semper eget duis at tellus at urna. Quam lacus suspendisse faucibus interdum posuere. 
+                            Id aliquet risus feugiat in ante.
+                        </p>
+
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                            <form action="" class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your comment"></textarea>
+                                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>Latin</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>59</span>
+                    </div>
+                    <div>
+                        <span>Politics</span>
+                        <span>48</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- facilities -->
+
+
+        <!--- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Najee Sidahmed</p>
+        </section>
+
+
+
+
+
+        <!---Javascript for Toggle Menu--->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
